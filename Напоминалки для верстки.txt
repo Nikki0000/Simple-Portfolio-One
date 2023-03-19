@@ -1,0 +1,20 @@
+Отобразить поведение кнопки:
+1. class кнопки, свойство transition 
+transition: opacity 0.2s ease-in;
+
+2. При навидении на кнопку 
+.btn:hover {
+    opacity: 0.8;
+}
+
+3. При нажатии на кнопку
+.btn:active {
+    position: relative;
+    top: 1px;
+}
+
+
+
+
+Контент страницы до конца (без пустого места внизу страницы), для футера:
+margin-top: auto;
